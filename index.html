@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Ayush Chaurasiya</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="style01.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+       <div class="nav-bar">
+        <div class="logo"><a href=""><img src="logo.png" alt=""></a></div>
+        <ul>
+            <li><span class="num">01.</span><a href="#h1""> About</a></li>
+            <li><span class="num">02.</span><a href="#h2"> Experience</a></li>
+            <li><span class="num">03.</span><a href="#h3"> Project</a></li>
+            <li><span class="num">04.</span><a href="#h5"> Contact</a></li>
+            <li><a href="https//"><span class="resume"> Resume</a></li>
+        </ul>
+        <span id="menu-bar"><i class="fa-solid fa-bars"></i></span>
+        <span id="menu-cancel"><i class="fa-solid fa-xmark"></i></span>
+       </div> 
+    </nav>
+
+    <div class="menu-bar">
+        <ul>
+            <li><span class="num">01. </span><a onclick="anchor()" href="#h1"">About</a></li>
+            <li><span class="num">02. </span><a onclick="anchor()" href="#h2">Experience</a></li>
+            <li><span class="num">03. </span><a onclick="anchor()" href="#h3">Project</a></li>
+            <li><span class="num">04. </span><a onclick="anchor()" href="#h5">Contact</a></li>
+            <li><a onclick="anchor()" href="https//"><span class="resume">Resume</a></li>
+        </ul>
+    </div>
+
+    <div class="left-bar">
+        <ul>
+            <li class="icon"><a href="https://www.linkedin.com/in/ayush-chaurasiya-7b2932287/"><i class="fa-brands fa-linkedin"></a></i></li>
+            <li class="icon"><a href="https://www.instagram.com/just_anony_/"><i class="fa-brands fa-instagram"></a></i></li>
+            <li class="icon"><a href="https://github.com/ayush001010"><i class="fa-brands fa-github"></a></i></li>
+            <li class="icon"><a href="https://mail.google.com/mail/u/2/#sent?compose=new"><i class="fa-solid fa-envelope"></a></i></li>
+        </ul>
+        <div class="left-line">
+        </div>
+    </div>
+    <main>
+        <div class="box1">
+            <p>Hi, my name is</p>
+            <h1 class="dynamic-txts"><span>Ayush Chaurasiya</span></h1>
+        </div>
+        <div class="box2">
+            <p> a dedicated web and game developer. I specialize in creating responsive websites and immersive games, combining clean code with innovative design. Explore my portfolio to see how I bring digital ideas to life.</p>
+        </div>
+        <section >
+        <div class="head1" >
+            <p id="h1"></p><p><span class="serial" >01.</span> About<spam class="dot">...</spam></p><div class="bar-ab"></div>
+        </div>
+        <div class="about-content">
+        <div  class="about">
+            <p >Hello! My name is <span>Ayush Chaurasiya</span>, and I am a passionate <span >Game Development</span> and <span>Web Development</span>. I thrive on challenges and am always eager to learn and improve.
+            I am pursuing  Bachelor of Technology in <span>Environmental Engineering</span> from <span>Indian Institute of Technology, Dhanbad</span>. My work is driven by a commitment to quality and a passion for innovation. <br >I believe in the power of continuous learning and strive to stay updated with the latest trends and advancements in my field. I am dedicated to delivering exceptional results and making a positive impact through my work. Collaboration and creativity are at the heart of everything I do, and I am always open to new opportunities and connections.</p>
+        </div>
+        <div class="profile-photo">
+            <dir class="profile-pic"></dir>
+        </div>
+        </div>
+        </section>
+        <section>
+            <div class="head2" >
+                <p id="h2"></p><p><span class="serial" >02.</span> Experiences<spam class="dot">...</spam></p><div class="bar-ex"></div>
+            </div>
+            <div class="skills-scroll-bar">
+                <div class="line-bar">
+                    <div class="active-line-bar">
+                    </div>
+                </div>
+                <ul>
+                    <li><span onclick="optionWb()" class="optionWd">Web Development</span></li>
+                    <span><li><span onclick="optionGb()" class="optionGd">Game Development</span></li>
+                    
+                </ul>
+            </div>
+            <div class="skills-list">
+                <div  class="webD">
+                <ul>
+                    <li><i class="fa-solid fa-file-code"></i>HTML</li>
+                    <li><i class="fa-solid fa-file-code"></i>Cascading Style Sheet</li>
+                    <li><i class="fa-solid fa-file-code"></i>Bootstrap (Framework)</li>
+                    <li><i class="fa-solid fa-file-code"></i>Javascript</li>
+                    <li><i class="fa-solid fa-file-code"></i>React (Framework)</li>
+                    <li><i class="fa-solid fa-file-code"></i>Node Js</li>
+                    <li><i class="fa-solid fa-file-code"></i>Express Js (Framework)</li>
+                </ul>
+                </div>
+                <div onclick="optionGb()" class="gameD">
+                <ul>
+                    <li><i class="fa-solid fa-dice-d6"></i>Unity Engine</li>
+                    <li><i class="fa-solid fa-dice-d6"></i>C#</li>
+                </ul>
+                </div>
+                <!-- <div class="desg">
+                <ul>
+                    <li><i class="fa-solid fa-pen-nib"></i>Canva</li>
+                    <li><i class="fa-solid fa-pen-nib"></i>Photoshop</li>
+                    <li><i class="fa-solid fa-pen-nib"></i>Figma</li>
+                </ul>
+                </div> -->
+            </div>
+        </section>
+        <section>
+            <div class="head3" >
+                <p id="h3"></p><p ><span class="serial" >03.01.</span> What I have made<spam class="dot">...</spam></p><div class="bar-pro"></div>
+            </div>
+            <h1 class="webDhead"><span class="title">Web Development</span></h1>
+            <div class="project-box">
+                <div class="pro1">
+                    <div class="project-info">
+                        <h1>MyWeather</h1>
+                        <p>HTML CSS JS API</p>
+                        <a href="https://ayush001010.github.io/MyWeather/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro2">
+                    <div class="project-info">
+                        <h1>QR-Gen</h1>
+                        <p>HTML CSS JS API</p>
+                        <a href="https://ayush001010.github.io/QR-Generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro3">
+                    <div class="project-info">
+                        <h1>To-Do List</h1>
+                        <p>HTML CSS JS</p>
+                        <a href="https://ayush001010.github.io/To-Do-List/"><i  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro4">
+                    <div class="project-info">
+                        <h1>New Project</h1>
+                        <p>Coming Soon...</p>
+                        
+                        <a href="https:///"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="head4" >
+                <p><span class="serial" >03.02.</span> What I have made<spam class="dot">...</spam></p><div class="bar-pro"></div>
+            </div>
+            <h1 class="gameDhead"><span class="title">Game Development</span></h1>
+            <div class="project-box-game">
+                <div class="pro1G">
+                    <div class="project-info">
+                        <h1>Pin-Pop</h1>
+                        <p>Unity3D C#</p>
+                        <a href="https:///"><i class="fa-solid fa-arrow-up-right-from-square"></i> Coming Soon...</a>
+                    </div>
+                </div>
+                <div class="pro2G">
+                    <div class="project-info">
+                        <h1>Boomber Man</h1>
+                        <p>Unity2D C#</p>
+                        <a href="https:///"><i class="fa-solid fa-arrow-up-right-from-square"></i> Coming Soon...</a>
+                    </div>
+                </div>
+                <div class="pro3G">
+                    <div class="project-info">
+                        <h1>Mario Clone</h1>
+                        <p>Unity2D C#</p>
+                        <a href="https:///"><i class="fa-solid fa-arrow-up-right-from-square"></i> Coming Soon...</a>
+                    </div>
+                </div>
+                <div class="pro4G">
+                    <div class="project-info">
+                        <h1>New Game</h1>
+                        <p>Coming Soon...</p>
+                        <a href="https:///"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section>
+              <div class="head5" >
+                    <p><p><span class="serial" >04.</span> Contact Me<spam class="dot">...</spam></p><div class="bar-pro-cont"></div>
+                </div>
+                <form action="" name="submit-to-google-sheet" >
+                    <span class="cont-msg" ><p> I'm excited to share my work with you. Feel free to explore and learn more about my projects and experiences. If you have any questions or want to connect, don't hesitate to reach out. Enjoy your visit!</p></span>
+                    <div class="name"><input type="text" name="name" placeholder="Your Name" id=""></div>
+                    <div class="email"><input type="email" name="email" placeholder="Your Email-id" id=""></div>
+                    <div class="msg"><input type="" name="message" placeholder="Drop your message" id=""></div>
+                    <button type="submit" onclick="submitForm()" class="submit">Submit</button>
+                </form>
+                </section>    
+    </main>
+    <footer>
+        <p id="h5"></p><div class="social"><ul>
+            <li class="icon"><a href="https://www.linkedin.com/in/ayush-chaurasiya-7b2932287/"><i class="fa-brands fa-linkedin"></a></i></li>
+            <li class="icon"><a href="https://www.instagram.com/just_anony_/"><i class="fa-brands fa-instagram"></a></i></li>
+            <li class="icon"><a href="https://github.com/ayush001010"><i class="fa-brands fa-github"></a></i></li>
+            <li class="icon"><a href=""><i class="fa-solid fa-envelope"></a></i></li>
+        </ul></div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Ayush Chaurasiya</p>
+    </footer>
+   <script src="app.js"></script>
+</body>
+</html>
